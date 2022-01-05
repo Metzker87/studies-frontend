@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: gainsboro;
+    font-family: Arial;
+}
+
+h1 {
+    color: white;
+    background-color: darkslategray;
+}
+
+h2 {
+    color: darkolivegreen;
+}
+
+p {
+    text-align: justify;
+}
