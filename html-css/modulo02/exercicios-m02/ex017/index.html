@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&family=Work+Sans:ital,wght@1,100&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente == 1em
+            */
+            font-size: 1em;            
+        }
+
+        h1 {
+            /*
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic;
+            
+            Shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family
+            
+            Não existe shorthand para tudo, mas exitem muitos que podem facilitar a vida do desenvolvedor. Vale a pesuisa.
+            */
+            font: italic bold 3em Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus fugit eius saepe suscipit impedit provident esse ea. Repellat dolorem, illo impedit magni exercitationem placeat doloremque eligendi voluptas quo? Asperiores, labore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestiae sequi iste deserunt culpa dolor veniam nihil ea optio a officiis, ut eum aperiam dolorum quos perferendis ipsa harum quam.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolorum recusandae perspiciatis nihil voluptatibus, ex consequatur quasi reprehenderit exercitationem nisi a beatae, sapiente totam non quas ullam! Recusandae, omnis a!
+    Harum accusantium, nemo accusamus, odio quae reprehenderit ullam ipsam laboriosam porro, optio consectetur corporis distinctio illo autem alias sed ea esse temporibus adipisci laborum sit et! Doloremque id ipsum impedit!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae architecto illum, non delectus molestias alias consequatur exercitationem necessitatibus, quidem placeat repellendus nobis iste impedit ipsam neque. Earum veniam corporis doloribus.
+    Possimus aspernatur dignissimos quos quo dolorem! Doloremque modi perspiciatis, illum magni facilis, beatae corporis odit commodi, quasi ratione obcaecati voluptates quibusdam harum laborum exercitationem tenetur dolore asperiores nostrum culpa cumque?
+    Labore tempore, magnam fuga natus alias illo ab temporibus laboriosam quos. Ut dignissimos adipisci voluptatum doloremque? Repellendus, iste illum iusto fugiat neque id at ratione, animi earum maiores unde sapiente.</p>
+</body>
+</html>
