@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+O que em HTML é id => em CSS é #
+id identifica um elemento único
+
+O que em HTML é class => em CSS é .
+class agrupa elementos múltiplos que tenham características semelhante
+*/
+body {
+    background-color: rgb(214, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(100, 97, 97);
+    text-indent: 40px;
+}
+
+#principal {
+    color: rgb(78, 101, 151);
+    background-color: rgb(144, 207, 202);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(66, 59, 160);
+    text-indent: 40px;
+}
+
+.basico {
+    text-align: left;
+}
+
+.intermediario {
+    text-align: center;
+}
+
+.avancado {
+    text-align: right;
+}
+
+.destaque {
+    background-color: rgba(34, 204, 57, 0.397);
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+}
